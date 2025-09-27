@@ -1,0 +1,26 @@
+Enter the number of child processes: 4
+Enter the Linux command to execute (e.g., 'ls -l'): ls
+[Parent] PID=13071 creating 4 children to run: ls
+[Child 1] PID=13136, Parent PID=13071, executing command: ls
+[Child 2] PID=13137, Parent PID=13071, executing command: ls
+[Child 3] PID=13138, Parent PID=13071, executing command: ls
+
+Desktop    even.py   forky.py                Pictures   Videos
+Documents  fork1.py  Music                   Public
+Downloads  fork2.py  os_alltasks_submission  Templates
+
+[Child 4] PID=13139, Parent PID=13071, executing command: ls
+[Parent] Child PID=13136 exited with status 0
+Desktop    even.py   forky.py                Pictures   Videos
+Documents  fork1.py  Music                   Public
+Downloads  fork2.py  os_alltasks_submission  Templates
+
+[Parent] Child PID=13137 exited with status 0
+Desktop    even.py   forky.py                Pictures   Videos
+Documents  fork1.py  Music                   Public
+Downloads  fork2.py  os_alltasks_submission  Templates
+[Parent] Child PID=13138 exited with status 0
+Desktop    even.py   forky.py                Pictures   Videos
+Documents  fork1.py  Music                   Public
+Downloads  fork2.py  os_alltasks_submission  Templates
+[Parent] Child PID=13139 exited with status 0
