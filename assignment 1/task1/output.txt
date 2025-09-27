@@ -1,9 +1,0 @@
-Enter thr number of child processes: 3
-Parent process PID: 10039 creating 3 child processes...
-
-Child 1: PID = 10061, Parent PID = 10039, Message = Hello from chld 1
-Child 2: PID = 10064, Parent PID = 10039, Message = Hello from chld 2
-Parent: Child with PID = 10061 finished with status0
-Child 3: PID = 10065, Parent PID = 10039, Message = Hello from chld 3
-Parent: Child with PID = 10064 finished with status0
-Parent: Child with PID = 10065 finished with status0
