@@ -1,0 +1,16 @@
+Initial Block Sizes: [100, 500, 200, 300, 600]
+Process Sizes: [212, 417, 112, 426]
+
+=== BEST FIT ALLOCATION ===
+Process No.	Process Size	Block No.
+1		212		4
+2		417		2
+3		112		3
+4		426		5
+
+=== WORST FIT ALLOCATION ===
+Process No.	Process Size	Block No.
+1		212		5
+2		417		2
+3		112		5
+4		426		Not Allocated
