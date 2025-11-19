@@ -1,0 +1,31 @@
+CPU Scheduling Algorithms - Demonstration
+Using sample data:
+Processes: P1(10,3), P2(5,1), P3(8,2)
+Time Quantum: 3
+=== Priority Scheduling ===
+
+Priority Scheduling Results:
+PID	Burst Time	Priority	Waiting Time	Turnaround Time
+P2	5		1		0		5
+P3	8		2		5		13
+P1	10		3		13		23
+
+Average Waiting Time: 6.00
+Average Turnaround Time: 13.67
+
+Gantt Chart:
+P2: [0-5] P3: [5-13] P1: [13-23] 
+
+=== Round Robin Scheduling ===
+
+Round Robin Scheduling Results:
+PID	Burst Time	Waiting Time	Turnaround Time
+P1	10		13		23
+P2	5		9		14
+P3	8		14		22
+
+Average Waiting Time: 12.00
+Average Turnaround Time: 19.67
+
+Gantt Chart:
+P1: [0-3] P2: [3-6] P3: [6-9] P1: [9-12] P2: [12-14] P3: [14-17] P1: [17-20] P3: [20-22] P1: [22-23] 
