@@ -1,0 +1,42 @@
+Memory Management Techniques - Demonstration
+Using sample data for MFT and MVT
+
+==================================================
+MFT - Multiprogramming with Fixed Tasks
+==================================================
+Memory Details:
+Total Memory: 100
+Partition Size: 25
+Number of Partitions: 4
+Wasted Memory (due to fixed partitions): 0
+
+Process Allocation:
+✓ Process 1 (Size: 20) allocated to partition 1
+✓ Process 2 (Size: 15) allocated to partition 2
+✗ Process 3 (Size: 30) too large for fixed partition (Max: 25)
+✓ Process 4 (Size: 10) allocated to partition 3
+✓ Process 5 (Size: 5) allocated to partition 4
+
+Total Internal Fragmentation: 50
+Partitions Used: 4/4
+
+==================================================
+MVT - Multiprogramming with Variable Tasks
+==================================================
+Initial Available Memory: 100
+
+Process Allocation:
+✓ Process 1 (Size: 40) allocated
+  Memory used: 40, Remaining: 60
+✓ Process 2 (Size: 25) allocated
+  Memory used: 25, Remaining: 35
+✓ Process 3 (Size: 30) allocated
+  Memory used: 30, Remaining: 5
+✗ Process 4 (Size: 15) cannot be allocated
+  Required: 15, Available: 5
+
+Memory Management Summary:
+Total Memory: 100
+Memory Used: 95
+Memory Available: 5
+Utilization: 95.00%
