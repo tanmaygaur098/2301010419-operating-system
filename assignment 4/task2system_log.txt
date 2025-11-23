@@ -1,0 +1,4 @@
+2025-11-22 14:32:10,124 - Booting- Booting started
+2025-11-22 14:32:10,125 - Shutdown- Shutdown started
+2025-11-22 14:32:12,126 - Booting- Booting terminated
+2025-11-22 14:32:12,126 - Shutdown- Shutdown terminated
